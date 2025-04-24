@@ -1,0 +1,30 @@
+fixed:
+ Default value applied for undefined/null data in cells to avoid empty display.
+ implemented Sort arrow direction for current sort state on header click.
+ Added Sticky to topbar stays in view while scrolling body content vertically.
+ Replaced inline event handlers with clearly named functions to improve code readability.
+ wraps text in screens without breaking layout.
+
+
+
+todo :
+ highlight sorted columns
+ checkbox to select entire row/columns
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+sorting filtering fetching data from api through callback. 
+As you mentioned I have app.js as my parent component . 
+written table functionalities in table.js have separate config file for column config which has 
+sortable filterable and column width also included , from here I am using to my table functions. 
+And DOM buffering is done my buffer size is 5
